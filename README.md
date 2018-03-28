@@ -52,7 +52,7 @@ $ docker-compose -f docker-compose.production.yml run app rails db:migrate
 $ docker-compose -f docker-compose.production.yml up -d
 ```
 
-https://railstutorial.u6k.me/users/ にアクセスすると、トップ・ページが表示されます。
+https://railstutorial.u6k.me/ にアクセスすると、トップ・ページが表示されます。
 
 ## Development
 
@@ -74,7 +74,7 @@ $ docker-compose run app rails db:migrate
 $ docker-compose up -d
 ```
 
-https://test.railstutorial.u6k.me/users/ にアクセスすると、トップ・ページが表示されます。
+https://test.railstutorial.u6k.me/ にアクセスすると、トップ・ページが表示されます。
 ## Maintainer
 
 - [u6k - GitHub](https://github.com/u6k/)
