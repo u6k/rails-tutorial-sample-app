@@ -46,6 +46,12 @@ DBをマイグレートします。
 $ docker-compose -f docker-compose.production.yml run app rails db:migrate
 ```
 
+テストを実行します。
+
+```
+$ docker-compose -f docker-compose.production.yml run app rails test
+```
+
 本番用Dockerコンテナを起動します。
 
 ```
@@ -66,6 +72,12 @@ DBをマイグレートします。
 
 ```
 $ docker-compose run app rails db:migrate
+```
+
+テストを実行します。
+
+```
+$ docker-compose run app rails test
 ```
 
 開発用Dockerコンテナを起動します。
