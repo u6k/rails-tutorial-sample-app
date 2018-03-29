@@ -10,7 +10,7 @@ WORKDIR /var/myapp
 
 COPY . .
 
-RUN bundle install
+RUN bundle install --path=vendor/bundle
 
 EXPOSE 3000
 
